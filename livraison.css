@@ -1,0 +1,87 @@
+.page3
+ {
+     background-image: url(https://image.shutterstock.com/image-photo/fresh-tasty-pizza-margarita-on-260nw-523528633.jpg);
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+background-size:cover;
+background-position:center;
+     
+    }
+.bloc{
+    display: flex;
+}
+.titre
+{
+    margin-top: 39px;
+    font-size: 22px;
+}    
+
+form
+{
+    margin-left: 27px;
+    margin-top: 155px;
+}
+input
+{
+    width: 369px;
+    height: 49px;
+    border-radius: 16px;
+}
+button
+{
+    margin-left: 382px !important;
+    margin-top: 15px !important;
+    width: 150px !important;
+}
+.fa {
+    padding: 7px;
+    font-size: 20px;
+    width: 39px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: orangered;
+    color: white;
+  }
+  .media
+ {
+    justify-content: center;
+    margin-top: 8%;;
+    background-color: #ced4da;
+
+ } 
+ @media screen and (max-width: 500px)
+ {
+input{
+    width: 50%;
+}
+.titre{
+    font-size: 106%;
+}
+.btn{
+    margin-left: 100px!important;
+    margin-top: 58px!important;
+}
+ }

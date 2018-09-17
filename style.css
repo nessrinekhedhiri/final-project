@@ -1,0 +1,157 @@
+
+.d-block
+{
+    height: 390px;
+}
+
+.carousel
+{
+    top: 95px;
+}
+.text
+{
+    color: white;
+    position: absolute;
+    margin-top: -437px;
+    margin-left: 875px;
+    font-size: 42px;
+    font-family: cursive;
+
+}
+.fa {
+    padding: 7px;
+    font-size: 20px;
+    width: 39px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: orangered;
+    color: white;
+  }
+  .media
+ {
+    justify-content: center;
+    margin-top: 85px;
+
+ } 
+ .bloc_1
+    {
+        border: 1px solid gray;
+        padding: 65px;
+        width: 40%;
+        margin-top: 8%;
+    }
+    .image:hover {
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.5); 
+    }
+    @media screen and (max-width: 1200px) {
+        .lead {
+            font-size: 96%;
+        }
+        .bloc_1 > h3
+        {
+            font-size: 21px !important;
+
+        }
+    }
+        @media screen and (max-width: 1200px) {
+            .text {
+                color: white;
+                position: absolute;
+                margin-top: -389px;
+                margin-left: 705px;
+                font-size: 38px;
+                font-family: cursive;
+            }
+    
+            }
+            @media screen and (max-width: 1000px)
+            {
+            .text {
+                color: white;
+                position: absolute;
+                margin-top: -389px;
+                margin-left: 584px;
+                font-size: 34px;
+                font-family: cursive;
+            }
+        }
+
+        @media screen and (max-width: 870px)
+        {
+              .text {
+                  color: white;
+                  position: absolute;
+                  margin-top: -353px;
+                  margin-left: 536px;
+                  font-size: 29px;
+                  font-family: cursive;
+       }
+}
+ 
+@media screen and (max-width: 760px)
+{
+.text {
+    color: white;
+    position: absolute;
+    margin-top: -338px;
+    margin-left: 483px;
+    font-size: 26px;
+    font-family: cursive;
+}
+}
+
+@media screen and (max-width: 650px)
+{
+.text {
+    color: white;
+    position: absolute;
+    margin-top: -327px;
+    margin-left: 423px;
+    font-size: 22px;
+    font-family: cursive;
+}
+}
+
+
+@media screen and (max-width: 600px)
+{
+.text {
+    color: white;
+    position: absolute;
+    margin-top: -311px;
+    margin-left: 378px;
+    font-size: 21px;
+    font-family: cursive;
+}
+}
+ 
+ 
+    
+ 
+ 
+ 

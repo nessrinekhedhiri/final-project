@@ -1,0 +1,191 @@
+
+.page2
+{
+    padding-top: 93px;
+    position: absolute
+}
+.menu_pizza
+ {
+     background-image:url(http://www.freepptbackgrounds.net/wp-content/uploads/2013/11/Master-of-Pizza-Powerpoint-Design.jpg);
+     background-repeat: no-repeat;
+     background-size: 145%;
+     position: relative;
+    }
+    .img-small
+    {
+    width: 18%;
+    margin-top: 4%;
+    }
+    .small
+    {
+        color: gray;
+    margin-left: 75%;
+    font-size: 162% !important;
+    font-weight: 450 !important;
+    }
+    .img-large
+    {
+        width: 24%;
+    }
+    .large
+    {
+        color: gray;
+    margin-left: 69%;
+    }
+    
+    .img1
+    {
+        width: 249px;
+    /* margin-top: 20px; */
+    margin-left: 100%;
+
+    }
+    .description1
+    {
+  display: none;
+  height: 143px;
+  width: 210px;
+  font-style: oblique;
+  margin-top: 48px;
+  margin-left: 251px;
+  position: absolute;
+
+    }
+    h4{
+        margin-left: 302px;
+    }
+    #prix1
+    {
+        margin-left: 561%;
+        margin-top: 82%;
+    }
+    #prix2
+    {
+        margin-left: 761%;
+        margin-top: 72%;
+    }
+    .btn-primary
+    {
+        margin-left: 35%;
+    }
+    
+    
+    ul
+    {
+        list-style:none;
+    }
+    .btn-primary
+    {
+        margin-left: 424px;
+    margin-top: -23px;
+    background-color: #e21836 !important;
+    border-color: #e21836 !important;
+    width: 202px;
+    height: 44px;
+    padding: 6px !important;
+    }
+    .fa {
+        padding: 7px;
+        font-size: 20px;
+        width: 39px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+      }
+      
+      .fa-instagram {
+        background: orangered;
+        color: white;
+      }
+      .media
+     {
+        justify-content: center;
+        margin-top: 85px;
+    
+     } 
+
+     @media (max-width: 1200px)
+     {
+        .img1 {
+            margin-left: 64%;
+        }
+        h4 {
+            margin-left: 25%;
+        }
+
+        .btn-primary {
+            margin-left: 33%;
+        }
+        #prix1 {
+            margin-left: 413%;
+        }
+        #prix2 {
+            margin-left: 644%;
+        }
+        .description1 {
+            display: none;
+            height: 143px;
+            width: 210px;
+            font-style: oblique;
+            margin-top: 48px;
+            margin-left: 164px;
+        }
+        
+     }
+     @media (max-width: 1000px)
+     {
+#prix1 {
+    margin-left: 328% ;
+    font-size: 125%;
+}
+#prix2 {
+    margin-left: 583%;
+    font-size: 125%;
+}
+
+}
+
+@media (max-width: 700px)
+     {
+.btn {
+    width: 33%;
+}
+#prix2 {
+ margin-left: 141%;
+    font-size: 125%;
+}
+h4{
+    font-size: 111% !important;
+    margin-left: 30%;
+}
+
+.img1 {
+    margin-left: 34%;
+    width: 52%;
+
+}
+
+#prix1 {
+    margin-left: -20%;
+    font-size: 125%;
+}
+     }

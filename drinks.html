@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="drinks.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+</head>
+<body class="page3">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar fixed-top">
+    
+    <a class="navbar-brand" href="../final-project/index.html">
+      <img class="logo" src="big-pizza.png" width="100" height="70" >
+    </a>
+  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../final-projects/index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Menu
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="../final-project/menu.pizza.html">Pizza</a>
+            <a class="dropdown-item" href="../final-project/drinks.html">Drinks</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Another Dishes</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="../final-project/livraison.html?#">Delivery</a>
+            <a class="dropdown-item" href="../final-project/table_reservation.html?">Table Reservation</a>
+            
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact us</a>
+        </li>
+      </ul>
+     
+    </div>
+  </nav>
+      <div class="section_1 container-fluid">
+      <center><h2>Menu</h2></center>
+        <div class="bloc_1" style="display: flex; margin-top: 66px;">
+            <div class="1">
+            <img class="drink1"src="http://pngimg.com/uploads/cocacola/cocacola_PNG23.png">
+            <h3 id="price1">2000 D</h3> 
+            <ul class="list1">
+               <li> <input type="checkbox" id="checkbox1" onclick="calculprix(1)" ></li> quantite
+               <li> <input class="quantite"type="number" id="quantite1" min="1" max="20"></li>
+            </ul>
+            </div>
+            <div class="2">
+            <img class="drink2" src="http://pngimg.com/uploads/cocacola/cocacola_PNG28.png">
+            <h3 style="margin-left: 163px;" id="price2">2500 D</h3>
+            <ul style="display: flex;margin-left: -73px; margin-left: 86px;">
+                    <li> <input type="checkbox" id="checkbox2" onclick="calculprix(2)" ></li> quantite
+                    <li> <input class="quantite"type="number" id="quantite2" min="1" max="20"></li>
+            </ul>
+            </div>
+            <div class="3">
+            <img class="drink3" src="http://pngimg.com/uploads/cocacola/cocacola_PNG17.png" style="width: 83px;height: 154px;margin-top: -7px;">
+            
+            <h3 style="margin-left: 141px;" id="price3">1500 D</h3>
+            
+            <ul style="display: flex;margin-left: 61px;margin-top: -3px;">
+                    <li> <input type="checkbox" id="checkbox3" onclick="calculprix(3)" ></li> quantite
+                    <li> <input class="quantite"type="number" id="quantite3" min="1" max="20"></li>
+            </ul>
+            </div>
+        </div>
+
+        <div class="bloc_1" style="display: flex; margin-top: 66px;">
+                <div class="1">
+                <img class="drink1"src="http://spotbeverage.com/wp-content/uploads/2017/10/Pepsi-Cup.jpg">
+                <h3 id="price4">2500 D</h3> 
+                <ul class="list1">
+                   <li> <input type="checkbox" id="checkbox4" onclick="calculprix(4)" ></li> quantite
+                   <li> <input class="quantite"type="number" id="quantite4" min="1" max="20"></li>
+                </ul>
+                </div>
+                <div class="2">
+                <img class="drink2" src="http://www.rojik.hu/wp-content/uploads/2015/08/PC-02..jpg">
+                <h3 style="margin-left: 163px;" id="price5">1500 D</h3>
+                <ul style="display: flex;margin-left: -73px; margin-left: 86px;">
+                        <li> <input type="checkbox" id="checkbox5" onclick="calculprix(5)" ></li> quantite
+                        <li> <input class="quantite"type="number" id="quantite5" min="1" max="20"></li>
+                </ul>
+                </div>
+                <div class="3">
+                <img class="drink3" src="https://cdn.shopify.com/s/files/1/0868/4644/products/Screenshot_2017-06-04-14-28-55-1_large.png?v=1496612033" 
+                style="width: 143px;height: 196px;margin-top: -55px;">
+                
+                <h3 style="margin-left: 141px;" id="price6">2500 D</h3>
+                
+                <ul style="display: flex;margin-left: 61px;margin-top: -3px;">
+                        <li> <input type="checkbox" id="checkbox6" onclick="calculprix(6)" ></li> quantite
+                        <li> <input class="quantite"type="number" id="quantite6" min="1" max="20"></li>
+                </ul>
+                </div>
+            </div>
+
+            <div class="bloc_1" style="display: flex; margin-top: 66px;">
+                    <div class="1">
+                    <img class="drink1"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMZLjliyftEEpgOhTWAmcrTiKuo5TF9H6z4pogA3uU4X_8b8CK">
+                    <h3 id="price7">3000 D</h3> 
+                    <ul class="list1">
+                       <li> <input type="checkbox" id="checkbox7" onclick="calculprix(7)" ></li> quantite
+                       <li> <input class="quantite"type="number" id="quantite7" min="1" max="20"></li>
+                    </ul>
+                    </div>
+                    <div class="2">
+                    <img class="drink2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwLJ5ZXtgD7PubssufK20LKPwbpPPjvYKeiODQq9DJ8z2Rac5x">
+                    <h3 style="margin-left: 163px;" id="price8">4000 D</h3>
+                    <ul style="display: flex;margin-left: -73px; margin-left: 86px;">
+                            <li> <input type="checkbox" id="checkbox8" onclick="calculprix(8)" ></li> quantite
+                            <li> <input class="quantite"type="number" id="quantite8" min="1" max="20"></li>
+                    </ul>
+                    </div>
+                    <div class="3">
+                    <img class="drink3" src="https://www.legaboury.com/wp-content/uploads/2016/07/1-jfparent-amaro-500mlregulier.png" style="width: 83px;height: 154px;margin-top: -7px;">
+                    
+                    <h3 style="margin-left: 141px;" id="price9">1500 D</h3>
+                    
+                    <ul style="display: flex;margin-left: 61px;margin-top: -3px;">
+                            <li> <input type="checkbox" id="checkbox9" onclick="calculprix(9)" ></li> quantite
+                            <li> <input class="quantite"type="number" id="quantite9" min="1" max="20"></li>
+                    </ul>
+                    </div>
+                </div>
+                <a href="../final-project/livraison.html?">
+                <button type="button" class="btn btn-success" href="#">Commandez</button>
+                </a>
+                </p>
+     
+            </div>
+      
+
+
+      <footer class="media">
+            <!-- Add font awesome icons -->
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    
+    </footer>
+      
+    </body>
+    <script src="drinks.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    </html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="livraison.css">
+</head>
+<body class="page3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar fixed-top">
+    
+        <a class="navbar-brand" href="file:///C:/Users/dell/Documents/projet_final_js/index.html">
+          <img class="logo" src="big-pizza.png" width="100" height="70" >
+        </a>
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="file:///C:/Users/dell/Documents/projet_final_js/index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Menu
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="file:///C:/Users/dell/Documents/projet_final_js/menu.pizza.html">Pizza</a>
+                <a class="dropdown-item" href="file:///C:/Users/dell/Documents/projet_final_js/drinks.html">Drinks</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Another Dishes</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Services
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="file:///C:/Users/dell/Documents/projet_final_js/livraison.html?#">Delivery</a>
+                <a class="dropdown-item" href="file:///C:/Users/dell/Documents/projet_final_js/table_reservation.html?">Table Reservation</a>
+                
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+          </ul>
+          
+          
+        </div>
+      </nav>
+      <form class="form" action="#" id="example-form">
+        <h3 class="titre">VOTRE VILLE :</h3>
+        <input type="text" placeholder="Taper votre ville.." id="ville">
+        <h3 class="titre">VOTRE CODE POSTAL: </h3>
+        <input type="text" placeholder="Taper votre code postal.." id="postal">
+        <h3 class="titre">NUMÉRO DE RUE:</h3>
+        <input type="text" placeholder="Taper votre numero de rue.." id="rue">
+        
+        <div class="form-group">
+            <div class="controls">
+              <button type="submit" class="btn btn-primary" onclick="alert_error()">Submit</button>
+            </div>
+        </div>
+      
+      </form>
+       </body>
+       <script src="livraison.js"></script>
+  <script>
+
+  function alert_error()
+  {
+      var ville=document.getElementById("ville").value;
+      var postal=document.getElementById("postal").value;
+      var rue=document.getElementById("rue").value;
+      
+      if ((ville=="") || (postal=="") || (rue==""))
+       {
+        alert("All blanks must be fille!!!")
+       }
+      else
+      
+      alert("You receive your order in a few minutes thanks for your trust and good appetite :) ")
+  }
+  
+  </script>
+     
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+ <footer class="media">
+        <!-- Add font awesome icons -->
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-instagram"></a>
+  </footer>
+</body>
+
+</html>

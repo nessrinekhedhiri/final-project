@@ -1,0 +1,145 @@
+
+.page3
+{
+    padding-top: 93px;
+    position: absolute;
+}
+
+.logo
+{
+    height: 75px;
+    width: 125px;
+}
+
+.d-block
+{
+    height: 390px;
+}
+.page3
+ {
+     background-image:url(http://caresumeworld.com/p/2018/05/design-a-menu-for-summer-drinks-stock-vector-illustration-of-intended-for-drink-menu-background-design.jpg);
+     background-repeat: no-repeat;
+     background-size: 116%;
+    }
+    
+img
+{
+    width: 162px;
+    height: 151px;
+
+
+}
+ul
+{
+    list-style:none;
+}
+.section_1
+{
+   /* border: 1px solid black;*/
+   padding: 6%;
+    width: 52%;
+    /* height: 189%; */
+    margin-left: 647px;
+    background-color: white;
+}
+h2
+{
+    margin-top: -55px;
+    font-family: cursive;
+}
+.drink1
+{
+    margin-left: -77px;
+}
+.drink1:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+.drink2
+{
+    width: 162px;
+    height: 221px;
+    margin-left: 87px;
+    margin-top: -74px;
+}
+.drink2:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+.drink3
+{
+    width: 83px;
+    height: 154px;
+    margin-left: 109px;
+}
+.drink3:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+.quantite
+{
+    width: 48px;
+    margin-left: 11px;
+    height: 24px;
+}
+.list1
+{
+    display: flex;
+    margin-left: -73px;
+}
+.btn-success
+{
+    margin-top: 40px;
+    width: 120px;
+    margin-left: -40px;
+}
+.fa {
+    padding: 7px;
+    font-size: 20px;
+    width: 39px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: orangered;
+    color: white;
+  }
+  .media
+ {
+    justify-content: center;
+    margin-top: 85px;
+
+ } 
+
+
+ 
+ @media (max-width: 1200px)
+ {
+    .section_1 {
+        margin-left: 579px;
+    }
+ }

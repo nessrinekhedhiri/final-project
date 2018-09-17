@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="menu-pizza.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+</head>
+<body class="page2">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar fixed-top">
+    
+        <a class="navbar-brand" href="file:///C:/Users/dell/Documents/projet_final_js/index.html">
+          <img class="logo" src="big-pizza.png" width="100" height="70" >
+        </a>
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="file:///C:/Users/dell/Documents/projet_final_js/index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Menu
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="file:///C:/Users/dell/Documents/projet_final_js/menu.pizza.html">Pizza</a>
+                <a class="dropdown-item" href="file:///C:/Users/dell/Documents/projet_final_js/drinks.html">Drinks</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Another Dishes</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Services
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="file:///C:/Users/dell/Documents/projet_final_js/livraison.html?#">Delivery</a>
+                <a class="dropdown-item" href="file:///C:/Users/dell/Documents/projet_final_js/table_reservation.html?">Table Reservation</a>
+                
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+          </ul>
+         
+        </div>
+      </nav>
+      <main class="menu_pizza container">
+              <center>
+                <h1 class="titre">Menu</h1>
+             </center>
+            <div class="row text-right">
+              <div class="col-6" style="left: 26%;">
+                <img src="https://pics.clipartpng.com/midle/Pizza_PNG_Clipart-572.png" class="img-thumbnail img-small">
+                <h3 class="small">Small</h3>
+              </div>
+              <div class="col-6" style="left: 13%;">
+                <img src="https://pics.clipartpng.com/midle/Pizza_PNG_Clipart-572.png" class="img-thumbnail img-large">
+                <h3 class="large">Large</h3>
+              </div>
+            </div>
+
+            <div class="container">
+               <h4>MEXICAINE PIZZAS</h4>
+              <ul class="container-fluid"style="display: flex"> 
+               <li> <img class="img1 img-fluid"id="img1" src="https://www.dominos.fr/ManagedAssets/FR/product/PMEX/FR_PMEX_fr_hero_2639.png?v-1096236278">
+               </li> 
+               <li>
+               <p class="description1" id="description1" >Sauce tomate, mozzarella, boulettes de boeuf assaisonnées, merguez, maïs, oignons, assaisonnement mexicain.</p>
+               </li>
+               <li> <h3 id="prix1" >6000D</h3></li>
+               <li> <h3 id="prix2">12000D</h3></li>
+               </ul>
+               <a href="file:///C:/Users/dell/Documents/projet_final_js/livraison.html?" class="btn btn-primary btn-lg active" role="button">Commandez</a>
+
+              </div>
+
+              <div class="container">
+                  <h4 style="margin-top: 2%;">ORIGINALE PEPPERONI PIZZAS </h4>
+                  
+                 <ul style="display: flex"> 
+                  <li> <img class="img1 img-fluid" id="img2" src="https://www.dominos.fr/ManagedAssets/FR/product/PCHP/FR_PCHP_fr_hero_1850.png?v2102593173">
+                  </li> 
+                  <li>
+                  <p class="description1" id="description2" >Sauce tomate, mozzarella, saucisson pepperoni.</p>
+                  </li>
+                  <li> <h3 id="prix1" >8000D</h3></li>
+                  <li> <h3 id="prix2">15000D</h3></li>
+                  </ul>
+                  <a href="file:///C:/Users/dell/Documents/projet_final_js/livraison.html?" class="btn btn-primary btn-lg active" role="button">Commandez</a>
+   
+                 </div>
+
+                 <div class="container">
+                    <h4 style="margin-top: 2%;">PEPPINA PIZZAS</h4>
+                    
+                   <ul style="display: flex"> 
+                    <li> <img  class="img1 img-fluid" id="img3" src="https://www.dominos.fr/ManagedAssets/FR/product/PPEP/FR_PPEP_fr_hero_2762.png?v207514802">
+                    </li> 
+                    <li>
+                    <p class="description1" id="description3" >Sauce tomate, mozzarella, champignons, oignons, poivrons mélangés, olives noires, tomates fraîches, origan.</p>
+                    </li>
+                    <li> <h3 id="prix1" >7000D</h3></li>
+                    <li> <h3 id="prix2">14000D</h3></li>
+                    </ul>
+                    <a href="file:///C:/Users/dell/Documents/projet_final_js/livraison.html?#" class="btn btn-primary btn-lg active" role="button">Commandez</a>
+     
+                   </div>
+
+                   <div class="container">
+                      <h4 style="margin-top: 2%;">FIGUE - CHÈVRE PIZZAS</h4>
+                      
+                     <ul style="display: flex"> 
+                      <li> <img class="img1 img-fluid" id="img4" src="https://www.dominos.fr/ManagedAssets/FR/product/PSFC/FR_PSFC_fr_hero_2142.png?v-2071168322">
+                      </li> 
+                      <li>
+                      <p class="description1" id="description4" >Crème fraîche légère, mozzarella, chèvre, bacon, Fourme d’Ambert A.O.P, figues séchées et oignons, nappée de miel.</p>
+                      </li>
+                      <li> <h3 id="prix1" >9000D</h3></li>
+                      <li> <h3 id="prix2">18000D</h3></li>
+                      </ul>
+                      <a href="file:///C:/Users/dell/Documents/projet_final_js/livraison.html?#" class="btn btn-primary btn-lg active" role="button">Commandez</a>
+       
+                     </div>
+
+                     
+                    </main>
+
+
+      <footer class="media">
+            <!-- Add font awesome icons -->
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    
+    </footer>
+      </body>
+    
+    <script src="menu.pizza.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    </html>
